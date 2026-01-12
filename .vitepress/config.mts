@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Gray Meadows",
   description: "super over-engineered GTK desktop shell made in Rust and C++",
   srcDir: './src',
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     search: {

@@ -1,4 +1,4 @@
-# Installing Gray Meadows Shell
+# Installation
 
 I currently do not provide pre-compiled binaries for Gray Meadows Shell. To install it, you will need to build it from source.
 
