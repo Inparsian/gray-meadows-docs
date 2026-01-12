@@ -1,0 +1,7 @@
+.VPButton,
+.VPLink,
+.VPSwitch, .VPSwitch .check,
+.vp-doc :not(pre) > code,
+div[class*="language-"] {
+    border-radius: 0px !important;
+}
