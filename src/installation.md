@@ -48,14 +48,16 @@ cd gray-meadows-shell
 cargo build --release
 ```
 
-After building, you can find the binary in the `target/release/` directory. You can run it directly from there, or ~~move it to a directory in your PATH for easier access as follows~~
+After building, you can find the binary in the `target/release/` directory. You can run it directly from there, or move it to a directory in your PATH for easier access as follows:
 
-⚠️ I currently do not recommend moving the compiled gray-meadows-shell binary outside of the project folder, as it will cause issues with hot-reloading. This is something that will be addressed soon.
+```bash
+sudo cp target/release/gray-meadows-shell /usr/local/bin/
+```
 
 ## Running on Startup
 
 Gray Meadows Shell only has support for Hyprland, so it will be assumed that you are using it. You can add the following line to your Hyprland config file (usually located at `~/.config/hypr/hyprland.conf`):
 
 ```ini
-exec-once = /path/to/gray-meadows-shell/target/release/gray-meadows-shell
+exec-once = gray-meadows-shell
 ```
