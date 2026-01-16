@@ -2,6 +2,7 @@
 .VPLink,
 .VPSwitch, .VPSwitch .check,
 .vp-doc :not(pre) > code,
+button.DocSearch,
 div[class*="language-"] {
     border-radius: 0px !important;
 }
