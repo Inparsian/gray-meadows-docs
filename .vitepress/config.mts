@@ -23,7 +23,9 @@ export default defineConfig({
         items: [
           { text: 'Showcase', link: '/showcase' },
           { text: 'Installation', link: '/installation' },
-          { text: 'IPC', link: '/ipc' }
+          { text: 'IPC', link: '/ipc' },
+          { text: 'Configuration', link: '/configuration' },
+          { text: 'Theming', link: '/theming' }
         ]
       }
     ],
