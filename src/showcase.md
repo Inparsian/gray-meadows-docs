@@ -2,6 +2,8 @@
 
 This shows just some of the capabilities of Gray Meadows Shell.
 
+You can find a showcase video [here](https://www.youtube.com/watch?v=7co2tWNvVfk).
+
 ## Overview, Music Player Bar Widget & Volume OSD
 ![image](./assets/showcase/1.png)
 
