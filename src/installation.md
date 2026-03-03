@@ -30,7 +30,7 @@ The following packages are not required for Gray Meadows Shell to function, but 
 
 If you want the fonts in the showcase images, they are:
 
-- `cozette-ttf`
+- `cozette-otb`
 - `ttf-gohu-nerd`
 
 Please note that if you don't install the fonts above, you will have to change them in `_user.scss`.
