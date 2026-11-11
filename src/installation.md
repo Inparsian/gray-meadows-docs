@@ -46,6 +46,9 @@ cd gray-meadows-shell
 
 # Build the project in release mode to get an optimized binary
 cargo build --release
+
+# You can optionally compile the project with the cava feature to enable cava
+cargo build --release --features cava
 ```
 
 After building, you can find the binary in the `target/release/` directory. You can run it directly from there, or move it to a directory in your PATH for easier access as follows:

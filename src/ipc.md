@@ -18,8 +18,14 @@ gray-meadows-shell toggle_overview
 
 You can bind this command to a keybind in Hyprland like so:
 
+### .conf
 ```ini
 bindir = Super, Super_L, exec, gray-meadows-shell toggle_overview
+```
+
+### .lua
+```lua
+hl.bind("Super_L", hl.dsp.exec_cmd("gray-meadows-shell toggle_overview"), { release = true })
 ```
 
 ## Available Commands
