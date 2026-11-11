@@ -27,6 +27,7 @@ paru -S libqalculate libadwaita gtk4 gtk4-layer-shell gtksourceview5 dart-sass l
 The following packages are not required for Gray Meadows Shell to function, but they will enable additional features.
 
 - `cliphist` and `wl-clipboard`: Required for clipboard history functionality.
+- `libastal-cava`: Required for the cava feature.
 
 If you want the fonts in the showcase images, they are:
 
